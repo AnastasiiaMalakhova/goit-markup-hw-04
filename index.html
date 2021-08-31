@@ -13,29 +13,44 @@
 </head>
 <body>
     
-    <header class="header">
+  <header class="header">
 
-        <div class="container">
-            <nav class="site-navigation">  
-                <a href="./index.html" lang="en" class="logo link"><span class="accent">Web</span>Studio</a>
-                <ul class="site-nav list">
-                    <li class="item"><a href="" class="header-link link current">Студия</a></li>
-                    <li class="item"><a href="./portfolio.html" class="header-link link">Портфолио</a></li>
-                    <li class="item"><a href="" class="header-link link">Контакты</a></li>
-                </ul>
-            </nav>
-                <ul class="contacts-header list">
-                    <li class="item"><a href="mailto:info@devstudio.com" class="header-link link">info@devstudio.com</a> </li>
-                    <li class="item"><a href="tel:+380961111111" class="header-link link">+38 096 111 11 11</a> </li>
-                </ul>    
-        </div>
+    <div class="container">
+      <nav class="site-navigation">  
+          <a href="./index.html" lang="en" class="logo link"><span class="accent">Web</span>Studio</a>
+            <ul class="site-nav list">
+              <li class="item"><a href="" class="header-link link current">Студия</a></li>
+              <li class="item"><a href="./portfolio.html" class="header-link link">Портфолио</a></li>
+              <li class="item"><a href="" class="header-link link">Контакты</a></li>
+            </ul>
+      </nav>
+            <ul class="contacts-header list">
+                <li class="item">
 
-    </header>
+                    <a href="mailto:info@devstudio.com" class="header-link icon link">
+                        <svg class="icon-header" width="16" height="12">
+                            <use href="./images/symbol-defs.svg#envelope-hover-1"></use>
+                        </svg>
+                            info@devstudio.com
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="tel:+380961111111" class="header-link icon link">
+                        <svg class="icon-header" width="10" height="16"> 
+                            <use href="./images/symbol-defs.svg#smartphone-1" ></use>
+                        </svg>
+                            +38 096 111 11 11
+                    </a> 
+                </li>
+            </ul>    
+    </div>
+
+</header>
 
     <main>
         <!--Герой-->
         <section class="hero">
-
+    
             <div class="container">
                 <h1 class="hero-title">Эффективные решения </br>для вашего бизнеса</h1>
                 <button type="button" class="hero-button button">Заказать услугу</button>
@@ -50,18 +65,38 @@
                 <h2 hidden class="advantades-title">Особенности</h2>
                 <ul class="advantades-list list">
                     <li class="item">
+                        <div class="icon-advantades">
+                            <svg width="70" height="70">
+                                <use href="./images/symbol-defs.svg#antenna"></use>
+                            </svg>
+                        </div>
                         <h3 class="advantades-list title">Внимание к деталям</h3>
                         <p class="advantades-list descriptoin">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                     </li>
                     <li class="item">
+                        <div class="icon-advantades">
+                            <svg width="70" height="70">
+                                <use href="./images/symbol-defs.svg#clock"></use>
+                            </svg>
+                        </div>
                         <h3 class="advantades-list title">Пунктуальность</h3>
                         <p class="advantades-list descriptoin">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                     </li>
                     <li class="item">
+                        <div class="icon-advantades">
+                            <svg width="70" height="70">
+                                <use href="./images/symbol-defs.svg#diagram"></use>
+                            </svg>
+                        </div>
                         <h3 class="advantades-list title">Планирование</h3>
                         <p class="advantades-list descriptoin">Равным образом консультация с широким активом в значительной степени обуславливает</p>
                     </li>
                     <li class="item">
+                        <div class="icon-advantades">
+                            <svg width="70" height="70">
+                                <use href="./images/symbol-defs.svg#astronaut"></use>
+                            </svg>
+                        </div>
                         <h3 class="advantades-list title">Современные технологии</h3>
                         <p class="advantades-list descriptoin">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                     </li>  
@@ -93,7 +128,50 @@
                         <div class="team-name">
                             <h3 class="section-title-team" >Игорь Демьяненко</h3>
                             <p class="section-team-profession">Product Designer</p>
-                        </div>
+                        <ul class="icon-team-list">
+                            <li class="item-team">
+                                <a href="">
+
+                                    <div class="icon-team">
+                                        <svg class="icon-social-networks" width="20" height="20">
+                                            <use href="./images/symbol-defs.svg#instagram-2-1"></use>
+                                        </svg>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="item-team">
+                                <a href="">
+
+                                    <div class="icon-team">
+                                        <svg class="icon-social-networks" width="20" height="20">
+                                            <use href="./images/symbol-defs.svg#twitter"></use>
+                                        </svg>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="item-team">
+                                <a href="">
+
+                                    <div class="icon-team">
+                                        <svg class="icon-social-networks" width="20" height="20">
+                                            <use href="./images/symbol-defs.svg#facebook"></use>
+                                        </svg>
+                                    </div>
+
+                                </a>
+                            </li>
+                            <li class="item-team">
+                                <a href="">
+
+                                    <div class="icon-team">
+                                        <svg class="icon-social-networks" width="20" height="20">
+                                            <use href="./images/symbol-defs.svg#linkedin"></use>
+                                        </svg>
+                                    </div>
+
+                                </a>
+                            </li>
+                        </ul>
                     </li>
                     <li class="item">
                         <img src="./images/2/img5.jpg" alt="Фото Ольги Репиной" width="270" height="260">
