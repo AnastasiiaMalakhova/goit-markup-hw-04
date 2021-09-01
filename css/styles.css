@@ -22,7 +22,7 @@ body {
   color: var(--first-text-color);
 
   font-family: Roboto, sans-serif;
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 14px;
   letter-spacing: 0.03em;
 }
@@ -194,7 +194,7 @@ ul {
   margin-bottom: 20px;
 }
 
-.footer .contacts.list {
+.footer-address {
   margin-right: 70px;
 }
 /*Site-nav-flex*/
@@ -438,7 +438,7 @@ ul {
   flex-basis: calc ((100% - 150px) / 6);
 }
 
-.icon-client {
+.icon-section-clients {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -451,15 +451,14 @@ ul {
 
 .icon-clients {
   fill: var(--icon-first-color);
-  margin: 16px 32px;
 }
 
-.icon-client:hover .icon-clients,
-.icon-client:focus .icon-clients {
+.icon-section-clients:hover .icon-clients,
+.icon-section-clients:focus .icon-clients {
   fill: var(--icon--bgc);
 }
-.icon-client:hover,
-.icon-client:focus {
+.icon-section-clients:hover,
+.icon-section-clients:focus {
   border-color: var(--icon--bgc);
 }
 
